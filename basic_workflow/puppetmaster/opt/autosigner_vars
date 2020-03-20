@@ -1,0 +1,12 @@
+# This file holds variables for autosigner.sh
+# It MUST be located at /opt/autosigner_vars
+# 
+# AUTOSIGN_LOG - Optional. Path to the autosigner log. Defaults to /tmp/autosigner.log
+# VAULT_URL - Required. URL of your Vault server. Ex. https://<vaultserver>:<port>/v1
+# AUTOSIGN_UN - Required. The name of the Vault service account used to decrypt transit values.
+# AUTOSIGN_PW - Required. The password for the Vault service account.
+#
+# export AUTOSIGN_LOG=""
+# export VAULT_URL=""
+# export AUTOSIGN_UN="puppet"
+# export AUTOSIGN_PW=""
